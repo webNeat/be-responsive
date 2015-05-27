@@ -1,0 +1,37 @@
+@media only screen and (max-width: 760px), (min-device-width: 760px) and (max-device-width: 1024px) {
+
+	table.be-responsive, 
+	table.be-responsive thead, 
+	table.be-responsive tbody, 
+	table.be-responsive th,
+	table.be-responsive td,
+	table.be-responsive tr { 
+		display: block; 
+	}
+	
+	table.be-responsive thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	table.be-responsive tr { 
+		border: 2px solid #ddd;
+	}
+	
+	table.be-responsive td { 
+		position: relative;
+	}
+	
+	.responsive-with-titles td {
+		padding-left: 40% !important;
+	}
+	.responsive-with-titles td:before { 
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 35%; 
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+}

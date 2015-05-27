@@ -1,19 +1,19 @@
 {
-  "name": "responsive-table",
+  "name": "be-responsive",
   "version": "1.0.0",
   "authors": [
     "Amine Ben hammou <webneat@gmail.com>"
   ],
   "description": "Responsive table by transforming each row into a table like style using CSS",
   "main": [
-    "responsive-table.css",
-    "responsive-table.js"
+    "be-responsive.css",
+    "be-responsive.js"
   ],
   "keywords": [
     "responsive",
     "table",
-    "jquery",
     "datatable",
+    "jquery",
     "plugin"
   ],
   "license": "MIT",

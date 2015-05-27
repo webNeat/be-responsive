@@ -1,10 +1,10 @@
-#Be-responsive : Responsive Table jQuery Plugin
+#Be-responsive
 
-Responsive table by transforming each row into a table like style using CSS
+Responsive table jQuery plugin by transforming each row into a table like style using CSS
 
 ##Demo
 
-[Click here to see the demo](http://webneat.net/jquery/responsive-table/)
+[Click here to see the demo](http://webneat.net/jquery/be-responsive/)
 
 ##Install
 
@@ -19,4 +19,4 @@ Include the files `be-responsive.css` and `be-responsive.js`
 	<link rel="stylesheet" href="be-responsive.css">
     <script src="be-responsive.js"></script>
 
-Then add the `be-responsive` class to any table. Be sure the table defines titles using `th` and not `td`. The `data-with-titles` could be added with value `"true"` to show titles on every row when the table is transformed ( [see the demo](http://webneat.net/jquery/responsive-table/) )
+Then add the `be-responsive` class to any table. Be sure the table defines titles using `th` and not `td`. The `data-with-titles` could be added with value `"true"` to show titles on every row when the table is transformed ( [see the demo](http://webneat.net/jquery/be-responsive/) )
